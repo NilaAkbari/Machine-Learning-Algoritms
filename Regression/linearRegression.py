@@ -1,8 +1,8 @@
 import numpy as np 
 import math
 
-#tabe haye formul ha ro taarif mikonim
-#chand ta nemoone dade migirim az voroodi
+#definig the formulas as functions
+#taking some examples as input
 
 
 print("Enter the Xs list separated by space: ")
@@ -17,7 +17,7 @@ Ytrain = [int(y) for y in input().split()]
 learningRate = .01
 tekrar =1000
 
-#regression e khatti bood: y = beta0 + x*beta1
+#linear regression : y = beta0 + x*beta1
 def formule_e_kolli(b0,b1,x):
 	return (b0 + b1*x)
 
